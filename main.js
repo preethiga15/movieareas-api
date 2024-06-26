@@ -1,21 +1,14 @@
 import express from "express";
+import movieRoutes from "./routes/movies.routes.js"
 
 const app = express();
 const port =6969;
 
 app.get("/", (req, res) => {
-  res.json({ message: "Hello World" });
+  res.json({ message: "Hello Worldd" });
 });
 
-//CRUD functionality of movies
-
-//R-For Reading
-app.get('/movies', () => {});
-
-//c-For creating movies
-app.post("/movies",() => {});
-
-
+app.use('/movies',movieRoutes);
 
 
 app.listen(port, () => {
