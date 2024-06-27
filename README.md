@@ -1,3 +1,6 @@
+### movieareas-api
+provide a movie api for rejects app.
+
 ### important commands
 
 1.`npm install`
@@ -5,5 +8,13 @@
 3.`git init`
 4.`git add .`
 5.`git commit -m "first commit`
-6.`git remote add origin https://github.com/yourusername/yourrepository.git`
-7.`git push origin main`
+6.`git push origin main`
+
+###Database options
+
+1.SQL-(mysql,mariaDB,postgreSQL)
+2.NoSQL - (mongoDB)
+
+
+Username: preethigakrish15
+Password: pk66RASOQjnDerj4
